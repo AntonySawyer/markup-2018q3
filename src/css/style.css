@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content_wrapper {
+    margin: 0 auto;
+}
+
+@media (min-width: 360px) {
+    .content_wrapper {
+         max-width: 360px;
+     } 
+}
+
+@media (min-width: 768px) {
+   .content_wrapper {
+        max-width: 750px;
+    } 
+}
+
+@media (min-width: 992px) {
+   .content_wrapper {
+        max-width: 970px;
+    } 
+}
+
+@media (min-width: 1200px) {
+   .content_wrapper {
+        max-width: 1200px;
+    } 
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+}
+
+header a,
+.membership a {
+    color: #ffffff;
+}
+
+.header_bg {
+    background: url(../img/header.png) center center no-repeat;
+    height: 1065px;
+    background-size: cover;
+}
+
+.header_bg__cover {
+    background: rgba(0, 0, 0, 0.83);
+    height: 945px;
+    width: 100%;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+    -ms-flex-align: center;
+    border-bottom: 1px solid rgba( 255, 255, 255, 0.15);
+}
+
+.nav_bar__logo img {
+    margin: -12px -37px;
+}
+
+.nav_bar__menu {
+    width: 52.8%;
+}
+
+.nav_bar > a {
+    display: block;
+}
+
+.nav_bar__menu ul {
+    font-family: 'Lato', Arial, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+}
+
+.nav_bar__menu a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 36px 0 34px 0;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+
+.nav_bar__menu a:hover, 
+.nav_bar__menu a:active {
+    border-bottom: 1px solid #473333;
+}
+
+.header_text {
+    margin: 28% auto;
+}
+
+.header_text h2 {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 72px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.header_text p {
+    font-family: 'Lato', sans-serif;   
+    font-size: 32px;
+}
+
