@@ -123,3 +123,72 @@ header a,
     font-size: 32px;
 }
 
+.membership {
+    background: rgba(57,208,131, 0.91);    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+}
+
+.membership a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'lato-bold', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.membership_login,
+.membership_register {
+    width: 50%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+    display: -ms-flexbox;
+        -ms-flex-pack: center;
+        -ms-flex-align: center;
+    transition: all .5s ease;
+        -o-transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+}
+
+.membership_login {
+    background: rgba(32,55,71, 0.91);
+    right: 0;
+    position: relative;   
+    justify-content: flex-end;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+    padding-right: 240px;
+}
+
+.membership_register {
+    padding-left: 280px;
+    justify-content: flex-start; 
+        -ms-flex-pack: start;
+        -webkit-box-pack: start;     
+}
+
+.membership_login:before {
+    border-top: 120px solid rgba(32,55,71, 0.91);
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    content: "";
+    height: 0;
+    right: -30px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.membership_login:hover, 
+.membership_register:hover {
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 3px;
+    color: antiquewhite;
+}
+
